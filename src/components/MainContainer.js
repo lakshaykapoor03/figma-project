@@ -6,20 +6,43 @@ import img3 from "../assets/Rectangle 425.png"
 
 const MainContainer = () => {
   return (
-    <div className="mt-36 flex flex-col justify-center items-center">
-        <h1 className="text-white  font-outfit text-3xl font-semibold  "> "Empowering Care with Tomorrow's Technology: <br /> 
+    <div className="pt-36 flex flex-col justify-center items-center bg-black text-white">
+        <h1 className="text-white text-center font-outfit h-[114px] text-[40px] font-semibold -my-10  md:my-10"> "Empowering Care with Tomorrow's Technology: <br /> 
         Seamless, Intuitive, Compassionate."</h1>
-        <h2 className="font-[Pacifico] text-[#7A69FE]">"Advancing Care, Advancing Lives."</h2>
-        <div className="flex justify-evenly w-full overflow-hidden">
+        <h2 className="font-[Pacifico] text-[#7A69FE] h-[50px]  my-14 md:my-10 text-center text-[35px]">"Advancing Care, Advancing Lives."</h2>
+        <div className="flex md:flex-wrap justify-evenly mt-12">
 
-            <img className="w-[222px] h-[290px] rounded-md object-cover mx-2" src={img1} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img2} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img3} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img3} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img3} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img3} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img3} alt="" />
-            <img className="w-[222px] h-[280px] rounded-md object-cover mx-2" src={img3} alt="" />
+            <div>
+            <img className="w-[222px] h-[290px] rounded-md object-cover mx-4" src={img1} alt="" />
+            <p className="text-white text-center mt-4 mb-20"  >Planning</p>
+            </div>
+            <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img2} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >Business Operations </p>
+            </div>
+            <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img3} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >Nutritions</p>
+            </div> <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img2} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >HR</p>
+            </div>
+            <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img3} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >Policies</p>
+            </div> <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img2} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >Hello</p>
+         
+            </div> 
+            <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img2} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >Hello</p>
+            </div>
+            <div>
+            <img className="w-[222px] h-[280px] rounded-md object-cover mx-4" src={img2} alt="" />
+            <p className="text-white text-center mt-4 mb-20" >Hello</p>
+            </div> 
         </div>
     </div>
   )
